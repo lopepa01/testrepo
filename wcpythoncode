@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+#some useful code for the pywc final project code
+
 import sys
 
 print(sys.argv)
