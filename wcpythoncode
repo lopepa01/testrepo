@@ -1,0 +1,33 @@
+#!/usr/bin/python3
+
+import sys
+
+print(sys.argv)
+
+print(sys.argv[0])
+
+print(len(sys.argv))
+
+#Accumulator Pattern
+accumulator = 0
+
+for i in range(10):
+	accumulator += 2 * i
+
+print(accumulator)
+
+s = sys.argv[1]
+
+#iterate over a string
+for c in s:
+	print(c)
+
+#iterate over a file
+myFile = open("pywc")
+for line in myFile:
+	print(line)
+
+	#splitting a string
+	for word in line.split():
+		print(word)
+

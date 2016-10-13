@@ -1,0 +1,5 @@
+This is a testfile for the pywc final project command.
+
+Text to be tested.
+
+The pywc command should work the same as the wc command.
